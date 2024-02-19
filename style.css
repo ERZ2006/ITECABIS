@@ -1,0 +1,76 @@
+.accordion { 
+    background-color:red; 
+    color: black; 
+    cursor: pointer; 
+    padding: 18px; 
+    width: 100%; 
+    border: none; 
+    text-align: center; 
+    outline: none; 
+    font-size: 25px; 
+    transition: 0.4s; 
+  } 
+   
+  .active, .accordion:hover { 
+    background-color: gray;  
+  } 
+   
+  .panel { 
+    padding: 0 18px; 
+    display: none; 
+    background-color:gainsboro; 
+    overflow: hidden; 
+  } 
+  .panel2 { 
+    padding: 0 18px; 
+    display: none; 
+    background-color:cadetblue; 
+    overflow: hidden; 
+  } 
+  .panel3 { 
+    padding: 0 18px; 
+    display: none; 
+    background-color:burlywood; 
+    overflow: hidden; 
+  } 
+ 
+  .trr{ 
+    margin-left: 250px; 
+    margin-right: 250px; 
+  } 
+  .drr{ 
+color:black; 
+margin-left: 20px; 
+margin-right: 450px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 400px;
+  } 
+  .brr{ 
+    font-weight: 300px; 
+    margin-left: 500px;
+    margin-top: -180px;
+  } 
+  .prr{ 
+    font-weight: 300px; 
+    margin-left: 500px;
+    margin-top: -px;
+  } 
+  .crr{ 
+    margin-left: 10px; 
+    margin-right: 450px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400px;
+    margin-top: -170px;
+   
+  }
+  .button{
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,red 0%, red 51%, red);
+    margin-left: 15px;
+}
+
